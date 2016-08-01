@@ -1,7 +1,7 @@
 
 $(document).ready(function() {
 $('#submit-btn').click(function(){
-var type = $("#city-type") .val();
+var type = $("#city-type").val();
 event.preventDefault();
 			
 			//If I enter in new york
